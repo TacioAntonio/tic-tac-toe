@@ -1,0 +1,37 @@
+.game {
+    display: flex;
+    position: relative;
+    margin: 12%;
+}
+  
+.status {
+    margin-bottom: 5%;
+}
+  
+.game-info {
+    position: absolute;
+    right: 0;
+}
+  
+
+.button {
+    padding: 2px;
+    background-color: var(--button);
+    border: 0;
+    box-shadow: 0 3px 2px 0 var(--border);
+    color: var(--font);
+    cursor: pointer;
+    opacity: 0.5;
+}
+  
+.button:hover,
+.button:focus {
+    opacity: 1;
+}
+
+@media (min-width: 600px) {
+  .game {
+    display: flex;
+    justify-content: center;
+  }
+}
