@@ -1,19 +1,19 @@
 .square {
-    background-color: var(--square);
-    width: 34px;
-    height: 34px;
-    float: left;
-    font-size: 1.5em;
-    font-weight: bold;
-    line-height: 34px;
-    border: 2px solid var(--border);
-    margin-right: -1px;
-    margin-top: -1px;
-    text-align: center;
-  }
-  
-  .square:hover,
-  .square:focus {
-    outline: none;
-    cursor: pointer;
-  }
+  background-color: var(--square);
+  width: 34px;
+  height: 34px;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 34px;
+  border: 2px solid var(--border);
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+}
+
+.square:hover,
+.square:focus {
+  outline: none;
+  cursor: pointer;
+}
